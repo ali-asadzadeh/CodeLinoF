@@ -31,6 +31,8 @@ export default {
           500: '#082F49',
           600: '#FAFBFF',
           700: '#D9D9D9',
+          800: '#9C9C9C',
+          900: '#EAEAEB',
         },
         primery: {
           100: '#DFECFD',
@@ -41,6 +43,7 @@ export default {
           600: '#0A5FC7',
           700: '#07448E',
           800: '#031B39',
+          900: '#0385C8',
         },
         skyblue: {
           50: '#0369A1',
@@ -53,11 +56,18 @@ export default {
           700: '#32baf6',
           800: '#38BDF8',
           900: '#E6EDFF',
+          950: '#1C7DF4',
         },
         charcoal: '#413838',
         primaryvioent: '#DDD6FE',
+        maroon: '#c2005a',
+        royalpurple: '#833AB4',
+        torchred: '#FD1D1D',
+        yelloworange: '#FCB045',
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }
