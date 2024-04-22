@@ -33,6 +33,7 @@ export default {
           700: '#D9D9D9',
           800: '#9C9C9C',
           900: '#EAEAEB',
+          950: '#F5F5F5',
         },
         primery: {
           100: '#DFECFD',
