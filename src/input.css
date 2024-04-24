@@ -82,5 +82,8 @@
     input::-webkit-search-cancel-button {
         display: none;
     }
-
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-size: 200px;
+    }
 }
